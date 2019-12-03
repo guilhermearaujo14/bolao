@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bolão</title>
+    <link rel="stylesheet" href="./css/stilo.css">
+</head>
+<body>
+    <section id="container">
+        <h1>Bolão da Champions League</h1>
+        <p>Coloque seus dados Abaixo e para ser validada sua aposta.</p>
+        
+        <form action="mailto:guimega14@gmail.com" id="formulario" method="POST" target="_blank">
+            <label for="Nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf">
+
+            <label for="fone">Telefone</label>
+            <input type="tel" name="fone" id="fone" placeholder="(xx)xxxxx-xxxx">
+
+            <table>
+                <thead><h2>Times</h2></thead>
+                <tr>
+                    <td><label for="jogo">Barcelona</label></td>
+                    <td><input type="radio" name="campeao" value="barcelona" id="campeao"><br /></td>
+                </tr>
+                <tr>
+                    <td><label for="jogo">Bayer de Munich</label></td>
+                    <td><input type="radio" name="campeao" value="bayer" id="campeao"><br /></td>
+                </tr>
+                <tr>
+                    <td><label for="jogo">PSG</label></td>
+                    <td><input type="radio" name="campeao" value="psg" id="campeao"><br /></td>
+                </tr>
+                <tr>
+                    <td><label for="jogo">Real Madrid</label></td>
+                    <td><input type="radio" name="campeao" value="real" id="campeao"><br /></td>
+                </tr>
+                <tr>
+                    <td><label for="jogo">Juventus</label></td>
+                    <td><input type="radio" name="campeao" value="juventus" id="campeao"><br /></td>
+                </tr>
+            </table>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
